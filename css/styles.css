@@ -773,3 +773,56 @@ transform: translate(-50%, -50%) scale(1);
 position: relative;
 }
 
+/* 6 ДОМАШНЕЕ ЗАДАНИЕ  */
+
+
+.subscription{
+
+margin: 12px 0 0 93px;
+}
+
+.subscription-title{
+ 
+  color: var(--white-color);
+  font-size: 14px;
+line-height: 1.14;
+
+
+
+}
+
+.subscription-input{
+  margin-top: 20px;
+  height: 50px;
+  width: 358px;
+}
+.subscription-nav{
+  display: flex;
+  align-items: baseline;
+}
+
+.subscription-button{
+ 
+  padding: 0;
+  border: none;
+ 
+  background-color: var(--accent-color);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+  margin-left: 12px;
+}
+
+.subscription-text{
+  color: var(--white-color);
+margin-right: 10px;
+}
+.subscription-item{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+height: 50px;
+}
