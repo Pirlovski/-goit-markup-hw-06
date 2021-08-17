@@ -74,7 +74,52 @@
         <button class="primary-button link" type="button" data-modal-open>Заказать услугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <p></p>
+            <form class="form">
+              
+
+            <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+            <div class="form-field">
+              <input  class="form-input" type="text" name="person" id="person">
+              <svg class="form-svg" height="18px" width="18px" >
+                <use href="./images/sprite.svg#icon-person-modal"></use>
+              </svg>
+<label class="form-label" for="name">Имя</label>
+</div>
+
+<div class="form-field">
+  <input class="form-input" type="text" name="telephone" id="telephone">
+  <svg class="form-svg" height="18px" width="18px" >
+    <use href="./images/sprite.svg#icon-phone-modal"></use>
+  </svg>
+  <label class="form-label" for="telephone" >Телефон</label>
+  </div>
+
+  <div class="form-field">
+    <input class="form-input" type="text" name="envelope" id="envelope">
+    <svg class="form-svg" height="18px" width="18px" >
+      <use href="./images/sprite.svg#icon-email-modal"></use>
+    </svg>
+    <label class="form-label" for="envelope">Почта</label>
+    </div>
+
+<div class="form-field-comment">
+  <label class="form-label" for="comment">Комментарий</label>
+  <textarea class="form-comment" name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+</div>
+
+ <div class="form-mailing">
+<svg width="16px"  height="15px">
+  <use href="./images/sprite.svg#icon-vector"></use>
+</svg>
+<label class="mailing-label"  for="mailing">Соглашаюсь с рассылкой и принимаю <span  > <a class="mailing-label-link" href="#"> Условия договора</a></span></label>
+</div>   
+
+<button class="mailing-button">Отправить</button>
+
+</form>
+
+
+
 
             <button class="close-black" data-modal-close>
               <svg width="18px" height="18px">
@@ -176,7 +221,7 @@
 
           </ul>
           </div>
-        </div>
+        
       </section>
 
       <!-- НАша команда-->
@@ -447,9 +492,9 @@
               <label for="name"></label>
               <button class="subscription-button" >
                 <a class="subscription-item"  href="#">
-                <p class="subscription-text">Подписаться</p>
+                 <p class="subscription-text">Подписаться</p>
                 <svg class="subscription-icon" height="24px" width="24px" >
-                  <use href="./images/symbol-defs-6.svg#icon-icon-send">
+                  <use href="./images/sprite.svg#icon-send">
 
                   </use>
                 </svg>
