@@ -79,26 +79,26 @@
 
             <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
             <div class="form-field">
-              <input  class="form-input" type="text" name="person" id="person">
               <svg class="form-svg" height="18px" width="18px" >
                 <use href="./images/sprite.svg#icon-person-modal"></use>
               </svg>
-<label class="form-label" for="name">Имя</label>
+              <input  class="form-input" type="text" name="person" id="person">
+              <label class="form-label" for="person">Имя</label>
 </div>
 
 <div class="form-field">
-  <input class="form-input" type="text" name="telephone" id="telephone">
   <svg class="form-svg" height="18px" width="18px" >
     <use href="./images/sprite.svg#icon-phone-modal"></use>
   </svg>
+  <input class="form-input" type="text" name="telephone" id="telephone">
   <label class="form-label" for="telephone" >Телефон</label>
   </div>
 
   <div class="form-field">
-    <input class="form-input" type="text" name="envelope" id="envelope">
     <svg class="form-svg" height="18px" width="18px" >
       <use href="./images/sprite.svg#icon-email-modal"></use>
     </svg>
+    <input class="form-input" type="text" name="envelope" id="envelope">
     <label class="form-label" for="envelope">Почта</label>
     </div>
 
@@ -108,13 +108,15 @@
 </div>
 
  <div class="form-mailing">
-<svg width="16px"  height="15px">
-  <use href="./images/sprite.svg#icon-vector"></use>
+   <input class="input-checkbox" type="checkbox" name="mailing"  id="mailing">
+<svg class="icon-checkbox" width="16px"  height="15px">
+  <use href="./images/sprite.svg#icon-"></use>
 </svg>
 <label class="mailing-label"  for="mailing">Соглашаюсь с рассылкой и принимаю <span  > <a class="mailing-label-link" href="#"> Условия договора</a></span></label>
+
 </div>   
 
-<button class="mailing-button">Отправить</button>
+<button type="submit" class="mailing-button">Отправить</button>
 
 </form>
 
@@ -429,7 +431,7 @@
 
       <!--Нижний контитул-->
 
-      <footer class="footer">
+     <footer class="footer">
         <div class="container-footer">
           <div class="contact-inform">
             <address class="link-to-maps">
@@ -488,18 +490,18 @@
           <div class="subscription">
             <b class="subscription-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
             <form class="subscription-nav">
-              <input class="subscription-input" type="text" name="E-mail" id="name" placeholder="E-mail  ">
-              <label for="name"></label>
-              <button class="subscription-button" >
-                <a class="subscription-item"  href="#">
-                 <p class="subscription-text">Подписаться</p>
+              <input class="subscription-input" type="text" name="E-mail" id="subscription" placeholder="E-mail  ">
+              <label for="subscription"></label>
+              <button type="submit" class="subscription-button" >
+              
+                
+                Подписаться
                 <svg class="subscription-icon" height="24px" width="24px" >
-                  <use href="./images/sprite.svg#icon-send">
-
-                  </use>
+                  <use href="./images/sprite.svg#icon-send"> </use>
                 </svg>
-              </a>
+              
               </button>
+              
             </form>
             
             
