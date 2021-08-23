@@ -74,51 +74,81 @@
         <button class="primary-button link" type="button" data-modal-open>Заказать услугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
+            <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
             <form class="form">
               
 
-            <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
             <div class="form-field">
+              <label class="form-label" for="person">Имя</label>
+              <div class="input-group-absolute">
               <svg class="form-svg" height="18px" width="18px" >
                 <use href="./images/sprite.svg#icon-person-modal"></use>
               </svg>
               <input  class="form-input" type="text" name="person" id="person">
-              <label class="form-label" for="person">Имя</label>
-</div>
+            </div>
+            </div>
 
 <div class="form-field">
+  <label class="form-label" for="telephone" >Телефон</label>
+  <div class="input-group-absolute">
   <svg class="form-svg" height="18px" width="18px" >
     <use href="./images/sprite.svg#icon-phone-modal"></use>
   </svg>
   <input class="form-input" type="text" name="telephone" id="telephone">
-  <label class="form-label" for="telephone" >Телефон</label>
-  </div>
+</div>
+</div>
 
   <div class="form-field">
+    <label class="form-label" for="envelope">Почта</label>
+    <div class="input-group-absolute">
+
     <svg class="form-svg" height="18px" width="18px" >
       <use href="./images/sprite.svg#icon-email-modal"></use>
     </svg>
     <input class="form-input" type="text" name="envelope" id="envelope">
-    <label class="form-label" for="envelope">Почта</label>
-    </div>
+    
+  </div>
+</div>
 
 <div class="form-field-comment">
   <label class="form-label" for="comment">Комментарий</label>
   <textarea class="form-comment" name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
 </div>
 
- <div class="form-mailing">
-   <input class="input-checkbox" type="checkbox" name="mailing"  id="mailing">
-<svg class="icon-checkbox" width="16px"  height="15px">
-  <use href="./images/sprite.svg#icon-"></use>
-</svg>
-<label class="mailing-label"  for="mailing">Соглашаюсь с рассылкой и принимаю <span  > <a class="mailing-label-link" href="#"> Условия договора</a></span></label>
 
+
+
+
+
+ <div class="form-field-checkbox">
+   <label class="mailing-label" >
+     <div class="checkbox">
+      <input class="checkbox" type="checkbox" name="mailing"  >
+  
+     <span class="checkbox-icon"> 
+      <svg class="form-checkbox-icon" width="16px"  height="15px">
+      <use href="./images/sprite.svg#icon-nike"></use>
+     </svg> 
+    </span>   
+    
+    <div class="form-checkbox"> Соглашаюсь с рассылкой и принимаю  <span><a  class="mailing-label-link" href="#">Условия договора </a></span>  </div>
+    </div>
+     </label>
 </div>   
 
-<button type="submit" class="mailing-button">Отправить</button>
 
+
+
+
+
+<button type="submit" class="primary-button">Отправить</button>
 </form>
+
+
+
+
+
+
 
 
 
@@ -492,7 +522,7 @@
             <form class="subscription-nav">
               <input class="subscription-input" type="text" name="E-mail" id="subscription" placeholder="E-mail  ">
               <label for="subscription"></label>
-              <button type="submit" class="subscription-button" >
+              <button type="submit" class="primary-button flex-align-center" >
               
                 
                 Подписаться
